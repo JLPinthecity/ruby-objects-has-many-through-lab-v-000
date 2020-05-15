@@ -22,4 +22,10 @@ class Genre
     end
   end
 
+  def artists
+    songs.each do |song|
+      songs.artist
+    end
+  end
+
 end
