@@ -23,7 +23,7 @@ class Genre
   end
 
   def artists
-    songs.each do |song|
+    songs.select do |song|
       songs.artist
     end
   end
