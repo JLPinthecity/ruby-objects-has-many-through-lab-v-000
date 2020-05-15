@@ -28,4 +28,8 @@ class Genre
     end
   end
 
+  def add_song(song)
+    songs << song
+  end
+
 end
