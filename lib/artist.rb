@@ -32,7 +32,7 @@ class Artist
     end
   end
 
-  
+
 
 
 
