@@ -8,7 +8,7 @@ class Patient
     save
   end
 
-  
+
 
 
 end
