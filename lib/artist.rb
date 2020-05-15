@@ -26,6 +26,14 @@ class Artist
     Song.new(title, self, genre)
   end
 
+  def genres
+    songs.map do |song|
+      song.genre.uniq
+    end
+  end
+
+  
+
 
 
 
